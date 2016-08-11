@@ -1,7 +1,9 @@
 class ParkingController < ApplicationController
-  def occupied
+  def occupy
+    render json: :ok
   end
 
   def empty
+    render json: "empty"
   end
 end
